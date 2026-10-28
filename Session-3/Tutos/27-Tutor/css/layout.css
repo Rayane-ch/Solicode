@@ -1,0 +1,15 @@
+.en-tete {
+    background: #ffffff;
+    padding: 16px 24px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.logo-img {
+    height: 40px;
+}
+
+.contenu-principal {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
