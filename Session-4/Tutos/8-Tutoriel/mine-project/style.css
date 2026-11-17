@@ -1,0 +1,206 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-color: #F2F6FF;
+	color: #102653;
+	padding: 30px 0;
+}
+
+main {
+	width: 95%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	margin-bottom: 25px;
+}
+
+.icone-titre {
+	background-color: #DFECFF;
+	color: #2680E8;
+	padding: 12px;
+	border-radius: 14px;
+	display: flex;
+}
+
+header h1 {
+	font-size: 24px;
+	font-weight: 800;
+}
+
+header p {
+	font-size: 15px;
+	color: #526484;
+}
+
+.statistiques {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.carte-stat {
+	flex: 1;
+	background-color: #FFFFFF;
+	border: 1px solid #DCE6F7;
+	border-radius: 16px;
+	padding: 16px;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+	box-shadow: 0 3px 12px rgba(30, 64, 175, 0.08);
+}
+
+.carte-stat.terminees {
+	background-color: #E9F8EF;
+	border-color: #D1EFDC;
+}
+
+.carte-stat svg {
+	width: 22px;
+	height: 22px;
+}
+
+.carte-stat.total svg {
+	color: #2680E8;
+}
+
+.carte-stat.terminees svg {
+	color: #22A447;
+}
+
+.carte-stat.restantes svg {
+	color: #64748B;
+}
+
+.carte-stat span {
+	display: block;
+	font-size: 14px;
+	color: #526484;
+	font-weight: 700;
+}
+
+.carte-stat strong {
+	display: block;
+	font-size: 26px;
+	font-weight: 900;
+}
+
+.carte-stat small {
+	font-size: 13px;
+	color: #526484;
+}
+
+
+.liste-section h2 {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-size: 19px;
+	margin-bottom: 16px;
+}
+
+.grille-taches {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.carte-tache {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	padding: 16px;
+	border-radius: 16px;
+	box-shadow: 0 3px 12px rgba(30, 64, 175, 0.08);
+}
+
+.carte-tache.terminee {
+	background-color: #E9F8EF;
+	border: 1px solid #D1EFDC;
+}
+
+.carte-tache.terminee .statut-icone {
+	color: #22A447;
+}
+
+.carte-tache.terminee h3 {
+	color: #64748B;
+	text-decoration: line-through;
+}
+
+.carte-tache.non-terminee {
+	background-color: #FFFFFF;
+	border: 1px solid #DFE8F6;
+}
+
+.carte-tache.non-terminee .statut-icone {
+	color: #64748B;
+}
+
+.tache-info {
+	flex: 1;
+}
+
+.tache-info h3 {
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+.tache-info p {
+	font-size: 15px;
+	color: #526484;
+}
+
+.tache-meta {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.badge-priorite, .badge-etat {
+	border-radius: 20px;
+	padding: 5px 14px;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.badge-priorite.haute {
+	background-color: #FDE2E2;
+	color: #C62828;
+}
+
+.badge-priorite.moyenne {
+	background-color: #DFECFF;
+	color: #1769D2;
+}
+
+.badge-priorite.basse {
+	background-color: #E1F6E3;
+	color: #237A35;
+}
+
+.date-limite {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 14px;
+	color: #526484;
+}
+
+svg {
+    width: 22px;
+    height: 22px;
+}
