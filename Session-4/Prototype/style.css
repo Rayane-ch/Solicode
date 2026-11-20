@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f6f9;
+	color: #1e293b;
+	padding: 30px 20px;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+header h1 {
+	font-size: 28px;
+	margin-bottom: 8px;
+}
+
+header p {
+	color: #64748b;
+	margin-bottom: 15px;
+}
+
+header .status {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+header .status span {
+	background-color: #ffffff;
+	padding: 8px 16px;
+	border-radius: 20px;
+	border: 1px solid #e2e8f0;
+	font-size: 14px;
+}
+
+.conteneur {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.grille-projets {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 24px;
+}
+
+.grille-projets article {
+	background-color: #ffffff;
+	border-radius: 12px;
+	overflow: hidden;
+	border: 1px solid #e2e8f0;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+	display: flex;
+	flex-direction: column;
+}
+
+.grille-projets article img {
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+}
+
+.carte-contenu {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.carte-badges {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 12px;
+}
+
+.categorie {
+	font-size: 12px;
+	font-weight: bold;
+	color: #2563eb;
+	background-color: #dbeafe;
+	padding: 4px 10px;
+	border-radius: 12px;
+}
+
+.carte-badges .status {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 4px 10px;
+	border-radius: 12px;
+}
+
+.termine {
+	background-color: #dcfce7;
+	color: #166534;
+}
+
+.en-cours {
+	background-color: #fef3c7;
+	color: #92400e;
+}
+
+.carte-contenu h2 {
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+.carte-contenu p {
+	font-size: 14px;
+	color: #475569;
+	line-height: 1.5;
+	margin-bottom: 16px;
+	flex: 1;
+}
+
+.technologies {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.tech-tag {
+	background-color: #f1f5f9;
+	color: #334155;
+	font-size: 12px;
+	padding: 4px 10px;
+	border-radius: 6px;
+	border: 1px solid #cbd5e1;
+}
