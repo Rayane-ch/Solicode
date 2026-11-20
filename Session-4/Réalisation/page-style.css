@@ -1,0 +1,129 @@
+
+.asset-container {
+	max-width: 1100px;
+	margin: 30px auto;
+	padding: 0 20px;
+}
+
+.back-link {
+	margin-bottom: 20px;
+}
+
+.back-link a {
+	color: #3b4cca;
+	font-weight: bold;
+}
+
+.asset-layout {
+	display: flex;
+	gap: 30px;
+	align-items: flex-start;
+}
+
+.asset-main {
+	flex: 2;
+}
+
+.asset-sidebar {
+	flex: 1;
+}
+
+.preview-box {
+	background: white;
+	border: 1px solid #e2e4ee;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.preview-box img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 6px;
+}
+
+.asset-details {
+	background: white;
+	border: 1px solid #e2e4ee;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.asset-details h2 {
+	font-size: 18px;
+	color: #1f2547;
+	margin: 15px 0 10px;
+}
+
+.asset-details p {
+	color: #555;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+
+.specs-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.specs-list li {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0;
+	border-bottom: 1px solid #e2e4ee;
+}
+
+.spec-label {
+	font-weight: bold;
+	color: #1f2547;
+}
+
+.spec-value {
+	color: #555;
+}
+
+.buy-card {
+	background: white;
+	border: 1px solid #e2e4ee;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.category-badge {
+	background: #ffe3e3;
+	color: #d93838;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 4px 10px;
+	border-radius: 20px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.creator {
+	color: #777;
+	margin: 5px 0 15px;
+}
+
+.price {
+	font-size: 28px;
+	font-weight: bold;
+	color: #3b4cca;
+	margin: 15px 0;
+}
+
+.btn-buy {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.license-info {
+	margin-top: 20px;
+	padding-top: 15px;
+	border-top: 1px solid #e2e4ee;
+	font-size: 13px;
+	color: #666;
+}
